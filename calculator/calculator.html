@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>계산기 연습</title>
+        <meta charset="utf-8">
+        <script src="calculator.js" defer></script>
+        <style>
+            * {box-sizing: border-box;}
+            #result {
+                width: 180px;
+                height: 50px;
+                margin: 5px;
+                text-align: right;
+            }
+            #operator{
+                width: 50px;
+                height: 50px;
+                margin: 5px;
+                text-align: center;
+            }
+            button{
+                width: 50px;
+                height: 50px;
+                margin: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <input type = "number" id = "result">
+        <input id = "operator">
+        <div class="row">
+            <button id = "num-7">7</button>
+            <button id = "num-8">8</button>
+            <button id = "num-9">9</button>
+            <button id = "plus">+</button>
+        </div>
+        <div class="row">
+            <button id = "num-4">4</button>
+            <button id = "num-5">5</button>
+            <button id = "num-6">6</button>
+            <button id = "minus">-</button>
+        </div>
+        <div class="row">
+            <button id = "num-1">1</button>
+            <button id = "num-2">2</button>
+            <button id = "num-3">3</button>
+            <button id = "divide">/</button>
+        </div>
+        <div class="row">
+            <button id = "clear">c</button>
+            <button id = "num-0">0</button>
+            <button id = "calculatate">=</button>
+            <button id = "multiply">x</button>
+        </div>
+    </body>
+</html>
